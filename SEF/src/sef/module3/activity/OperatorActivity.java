@@ -22,10 +22,17 @@ public class OperatorActivity {
 		System.out.println("Difference = " + result);
 		
 		// Add numbers
-		
-		
+
 		// Print result
-		
+		int banan = i+j;
+		System.out.println("Sum = " + banan);
+
+		if (result<0 || i<j) {
+			System.out.println("sum = " +banan);
+		}
+		else {
+			System.out.println( "Hello");
+		}
 		
 	}
 

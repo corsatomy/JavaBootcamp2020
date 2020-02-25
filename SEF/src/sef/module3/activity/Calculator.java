@@ -11,8 +11,8 @@ public class Calculator {
 		
 	public static void main(String[] args) {
 		
-	int x = 10;
-	int y = 5;
+	int x = 5;
+	int y = 10;
 	
 	int[] nums = {1, 2, 3, 4};
 	
@@ -32,9 +32,11 @@ public class Calculator {
 	private static int subtract(int x, int y) {
 		int diff = 0;
 		if (x > y) {
-			// complete the code
+			// cmplete the code
+			diff = x - y;
 		} else {
 			// complete the code
+			diff = y - x;
 		}
 
 		return diff;
